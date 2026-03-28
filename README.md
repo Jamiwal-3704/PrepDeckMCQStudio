@@ -54,3 +54,37 @@ That means faster learning loops, less setup time, and better revision outcomes.
 - Export full analysis to PDF.
 - Retest mode reshuffles the same uploaded question bank.
 
+## How The Feature Magic Works
+
+### Flexible Parser Engine
+
+The parser can understand common MCQ patterns and loose formatting styles, including both answer mark styles:
+
+- Prefix style: ✅ C) Unauthorized
+- Suffix style: C) Unauthorized ✅
+
+It also supports separate key formats like:
+
+- 1:C
+- 2. B
+- 3-A
+
+### Timer and Auto-Submit Logic
+
+When timer is enabled, a countdown runs during quiz mode.
+When it reaches zero, the app automatically submits and generates analysis.
+
+### Optional Negative Marking
+
+Negative marking is not forced.
+
+It is only applied if user enables it in Quiz Controls.
+If not enabled, wrong answers reduce score percentage but do not deduct marks.
+
+### Difficulty Tagging
+
+- Auto-tagging uses question text heuristics.
+- Explicit tags in question text are respected, for example:
+  - What is CORS? [Easy]
+  - Explain middleware pipeline [Hard]
+
