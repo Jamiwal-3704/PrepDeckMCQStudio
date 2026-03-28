@@ -112,3 +112,36 @@ Libraries used:
 - Build and scripts config: package.json
 - Dev server config: vite.config.js
 
+## Build and Run Guide
+
+### Prerequisites
+
+- Node.js version 18 or higher
+- npm version 9 or higher
+
+### Install
+
+Run:
+
+npm install
+
+### Start Development Server
+
+Run:
+
+npm run dev
+
+Open the local URL shown in terminal, typically http://localhost:5173
+
+### Create Production Build
+
+Run:
+
+npm run build
+
+### Preview Production Build
+
+Run:
+
+npm run preview
+
