@@ -18,3 +18,39 @@ This one does the opposite:
 
 That means faster learning loops, less setup time, and better revision outcomes.
 
+## What You Can Do With It
+
+### Smart Input Layer
+
+- Paste questions directly in a text area.
+- Upload files in these formats:
+  - .txt
+  - .md
+  - .README
+  - .docx
+- Upload a separate solution file if questions do not include answers.
+- If tick-mark answers already exist in question text, solutions are auto-detected.
+
+### Real Quiz Experience
+
+- Random question order every attempt.
+- Clean option selection flow.
+- Previous and Next navigation.
+- Progress and answered counters.
+- Optional timer with automatic submit on timeout.
+
+### Advanced Evaluation
+
+- Correct, Wrong, No-Key counts.
+- Percentage score.
+- Total marks.
+- Optional negative marking toggle (disabled by default, enabled only when user chooses).
+- Difficulty distribution across Easy, Medium, Hard.
+- Wrong-answer review showing selected and correct option.
+
+### Reporting and Reuse
+
+- Export full analysis to CSV.
+- Export full analysis to PDF.
+- Retest mode reshuffles the same uploaded question bank.
+
