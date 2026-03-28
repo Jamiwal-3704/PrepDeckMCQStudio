@@ -103,3 +103,12 @@ Libraries used:
 - jspdf for PDF generation
 - jspdf-autotable for tabular result reports in PDF
 
+## Where Everything Is Implemented
+
+- Main app logic and feature flow: src/App.jsx
+- Parsing and transformation logic: src/utils/parser.js
+- Design, animations, responsiveness: src/styles.css
+- App bootstrapping: src/main.jsx
+- Build and scripts config: package.json
+- Dev server config: vite.config.js
+
