@@ -214,3 +214,18 @@ Total estimated effort:
 
 about 12 to 17 hours depending on edge-case handling and test depth.
 
+## Why This README Matters
+
+This document is intentionally written as both:
+
+- a user guide for people who want to run and use the app quickly
+- a developer guide for people who want to understand how each feature was implemented
+
+If your goal is to build a practical, portfolio-worthy quiz platform from raw question files, this codebase gives you a complete reference path.
+
+## Future Upgrades You Can Add Next
+
+- PDF question import support
+- Per-question timer mode
+- Final review screen before submission
+- Persistent question bank and history storage
