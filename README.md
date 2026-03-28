@@ -183,3 +183,13 @@ vercel --prod
 
 The `.nvmrc` file pins a Node version Vercel can use for consistent builds.
 
+## Suggested Question Format
+
+Use this format for best parsing accuracy:
+
+1. Which status code is 401?
+   A) Forbidden
+   B) Bad Request
+   C) Unauthorized ✅
+   D) Not Found
+
