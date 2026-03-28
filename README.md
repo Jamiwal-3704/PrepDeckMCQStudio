@@ -1,4 +1,4 @@
-# MCQ Practice Studio
+# PrepDeckMCQStudio
 
 Turn any raw MCQ document into a smart, test-ready practice website.
 
