@@ -145,3 +145,41 @@ Run:
 
 npm run preview
 
+## Deploy to Vercel (production)
+
+This project is a static Vite app. Vercel detects it automatically.
+
+1. Push the project to GitHub, GitLab, or Bitbucket (or use the Vercel CLI).
+2. In [Vercel](https://vercel.com), choose **Add New Project** and import the repository.
+3. Leave defaults: **Framework Preset** = Vite (or **Build Command** `npm run build` and **Output Directory** `dist` if needed).
+4. Deploy. The included `vercel.json` adds SPA routing and basic security headers.
+
+You can also deploy from the CLI (after `npm i -g vercel`):
+
+vercel
+
+For production:
+
+vercel --prod
+
+The `.nvmrc` file pins a Node version Vercel can use for consistent builds.
+
+## Deploy to Vercel (production)
+
+This project is a static Vite app. Vercel detects it automatically.
+
+1. Push the project to GitHub, GitLab, or Bitbucket (or use the Vercel CLI).
+2. In [Vercel](https://vercel.com), choose **Add New Project** and import the repository.
+3. Leave defaults: **Framework Preset** = Vite (or **Build Command** `npm run build` and **Output Directory** `dist` if needed).
+4. Deploy. The included `vercel.json` adds SPA routing and basic security headers.
+
+You can also deploy from the CLI (after `npm i -g vercel`):
+
+vercel
+
+For production:
+
+vercel --prod
+
+The `.nvmrc` file pins a Node version Vercel can use for consistent builds.
+
