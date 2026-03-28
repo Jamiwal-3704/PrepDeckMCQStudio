@@ -193,3 +193,24 @@ Use this format for best parsing accuracy:
    C) Unauthorized ✅
    D) Not Found
 
+## Effort and Build Depth
+
+This project was not a basic template-level implementation. It includes a full end-to-end learning workflow.
+
+Estimated implementation effort per feature:
+
+- App scaffold and core quiz flow: about 2 to 2.5 hours
+- Flexible parser for varied MCQ input styles: about 2 to 3 hours
+- File upload and .docx extraction: about 1 to 1.5 hours
+- Analysis engine and wrong-answer review: about 1 to 1.5 hours
+- Timer with auto-submit flow: about 0.8 to 1.2 hours
+- Optional negative marking controls and scoring: about 0.8 to 1.2 hours
+- Difficulty tagging logic: about 0.8 to 1.2 hours
+- CSV and PDF export integration: about 1.2 to 1.8 hours
+- UI polish, transitions, and responsive behavior: about 1.5 to 2.5 hours
+- Validation and build testing: about 1 to 1.5 hours
+
+Total estimated effort:
+
+about 12 to 17 hours depending on edge-case handling and test depth.
+
