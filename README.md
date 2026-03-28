@@ -88,3 +88,18 @@ If not enabled, wrong answers reduce score percentage but do not deduct marks.
   - What is CORS? [Easy]
   - Explain middleware pipeline [Hard]
 
+## Tech Stack and Libraries Used
+
+Core stack:
+
+- React
+- Vite
+- HTML
+- CSS
+
+Libraries used:
+
+- mammoth for reading .docx files
+- jspdf for PDF generation
+- jspdf-autotable for tabular result reports in PDF
+
